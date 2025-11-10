@@ -14,17 +14,11 @@ from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from bs4 import SoupStrainer
 
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 vector_store = InMemoryVectorStore(embeddings)
 
-loader = WebBaseLoader(
-    web_paths=("https://docs.swmansion.com/react-native-executorch/",),
-    bs_kwargs=dict(
-        parse_only=SoupStrainer(class_=("post-content", "post-title", "post-header"))
-    ),
-)
+loader = WebBaseLoader("https://docs.swmansion.com/react-native-executorch/")
 docs = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
