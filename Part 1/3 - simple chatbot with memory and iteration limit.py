@@ -1,14 +1,11 @@
 from langgraph.graph import StateGraph, START, END
-from langgraph.graph.message import add_messages
 from langchain.chat_models import init_chat_model
-from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
-from typing import Annotated, Sequence
+from langchain_core.messages import HumanMessage, AIMessage
 from langchain.agents import AgentState
 from dotenv import load_dotenv
 
 
 class State(AgentState):
-    messages: Annotated[Sequence[BaseMessage], add_messages]
     iteration: int
 
 

@@ -1,11 +1,11 @@
 from langgraph.graph import StateGraph, START
 from langchain.chat_models import init_chat_model
 from langchain_core.messages import HumanMessage, AIMessage
-from langchain.agents import AgentState
+from typing import TypedDict
 from dotenv import load_dotenv
 
 
-class State(AgentState):
+class State(TypedDict):
     pass
 
 

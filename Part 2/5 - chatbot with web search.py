@@ -1,16 +1,13 @@
 from langgraph.graph import StateGraph, START, END
-from langgraph.graph.message import add_messages
 from langchain.chat_models import init_chat_model
 from langchain.agents import AgentState
-from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
+from langchain_core.messages import HumanMessage, AIMessage
 from langgraph.prebuilt import ToolNode, tools_condition
 from langchain_community.tools import DuckDuckGoSearchResults
-from typing import Annotated, Sequence
 from dotenv import load_dotenv
 
 
 class State(AgentState):
-    messages: Annotated[Sequence[BaseMessage], add_messages]
     iteration: int
 
 
