@@ -2,11 +2,11 @@
 
 # :robot: Building Agents with LangGraph :parrot:
 
-**Building Agents with LangGraph** is a four-part course available on medium. It teaches fundamentals of creating production-ready LLM agents with [LangChain and LangGraph](https://www.langchain.com/) by real code examples available in this repository. Throughout the course, the reader learns to create a chatbot with increasing capabilities.
+**Building Agents with LangGraph** is a four-part course available on [Medium](). It teaches fundamentals of creating production-ready LLM agents with [LangChain and LangGraph](https://www.langchain.com/) by real code examples available in this repository. Throughout the course, the reader learns to create a chatbot with increasing capabilities.
 
 ## :closed_book: Parts of the Course
 
-### :one: Basic Chatbot — out Nov 27
+### :one: Basic Chatbot — out Nov. 27
 
 ### :two: Tools
 
