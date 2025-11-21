@@ -6,13 +6,13 @@
 
 ## :closed_book: Parts of the Course
 
-### :one: [Basic Chatbot]()
+### :one: Basic Chatbot — out Nov 27
 
-### :two: [Tools]()
+### :two: Tools
 
-### :three: [RAG and Long-Term Memory]()
+### :three: RAG and Long-Term Memory
 
-### :four: [Real-Life Example]()
+### :four: Real-Life Example
 
 ## The Course is created by Software Mansion
 
