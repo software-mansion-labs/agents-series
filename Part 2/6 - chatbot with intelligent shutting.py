@@ -15,7 +15,7 @@ class State(AgentState):
 
 class Decision(BaseModel):
     decision: Literal["yes", "no"] = Field(
-        "whether the user specified to end the conversation (yes) or not (no)"
+        description="whether the user specified to end the conversation (yes) or not (no)"
     )
 
 
