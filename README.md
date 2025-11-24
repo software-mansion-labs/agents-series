@@ -6,7 +6,7 @@
 
 ## :closed_book: Parts of the Course
 
-### :one: Basic Chatbot — out Nov. 27
+### :one: Basic Chatbot — out Dec. 4
 
 ### :two: Tools
 
