@@ -8,11 +8,11 @@
 
 ### :one: Basic Chatbot — out Dec. 4
 
-### :two: Tools
+### :two: Tools — out Dec. 11
 
-### :three: RAG and Long-Term Memory
+### :three: RAG and Long-Term Memory — out Dec. 16
 
-### :four: Real-Life Example
+### :four: Real-Life Example — out Dec. 22
 
 ## The Series is created by Software Mansion
 
