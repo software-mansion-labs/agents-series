@@ -6,7 +6,7 @@
 
 ## :closed_book: Parts of the Series
 
-### :one: Basic Chatbot — out Dec. 4
+### :one: Basic Chatbot — out Dec. 5
 
 ### :two: Tools — out Dec. 11
 
