@@ -2,11 +2,11 @@
 
 # :robot: Building Agents with LangGraph :parrot:
 
-**Building Agents with LangGraph** is a four-part series available on [Medium](). It teaches fundamentals of creating production-ready LLM agents with [LangChain and LangGraph](https://www.langchain.com/) by real code examples available in this repository. Throughout the series, the reader learns to create a chatbot with increasing capabilities.
+**Building Agents with LangGraph** is a four-part series available on [Medium](https://blog.swmansion.com/building-ai-agents-with-langgraph-part-1-4-a-basic-chatbot-ac4d2ad10bed). It teaches fundamentals of creating production-ready LLM agents with [LangChain and LangGraph](https://www.langchain.com/) by real code examples available in this repository. Throughout the series, the reader learns to create a chatbot with increasing capabilities.
 
 ## :closed_book: Parts of the Series
 
-### :one: Basic Chatbot — out Dec. 5
+### :one: [Basic Chatbot](https://blog.swmansion.com/building-ai-agents-with-langgraph-part-1-4-a-basic-chatbot-ac4d2ad10bed)
 
 ### :two: Tools — out Dec. 11
 
